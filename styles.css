@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    color: black;
+    background-color: #262626;
+}
+
+i {
+    font-size: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.icon-container span {
+    font-size: 12px;
+    margin-top: 10px;
+    width: 125px;
+}
+
+#versionFontAwesome {
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 2.5rem;
+    padding-bottom: 20px;
+}
+
+iframe {
+    margin-left: 1rem;
+}
+
+main {
+    padding: 1rem;
+}
